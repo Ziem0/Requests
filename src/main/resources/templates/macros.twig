@@ -1,0 +1,13 @@
+{% macro getReq (text) %}
+    <form method="get" action="/json-generator" target="_parent">
+        <label for="arg1">Argument 1:</label>
+        <input id="arg1" name="a1" type="{{ text }}" placeholder="enter something.." autofocus>
+        <label for="arg2">Argument 2:</label>
+        <input id="arg2" name="a2" type="{{ text }}" placeholder="enter something.." autofocus>
+        <label for="arg3">Argument 3:</label>
+        <input id="arg3" name="a3" type="{{ text }}" placeholder="enter something.." autofocus>
+        <label for="arg4">Argument 4:</label>
+        <input id="arg4" name="a4" type="{{ text }}" placeholder="enter something.." autofocus>
+        <button type="submit" id="submit">CHECK</button>
+    </form>
+{% endmacro %}

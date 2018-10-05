@@ -1,4 +1,4 @@
-create table if not exists (
-	method txt not null unique,
-	counter INTEGER NOT NULL DEFAULT 1
+create table if not exists counter (
+	method txt not null,
+	amount INTEGER NOT NULL DEFAULT 1
 );

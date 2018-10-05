@@ -1,0 +1,18 @@
+{% extends "template.twig" %}
+{% import "macros.twig" as inputs %}
+
+{% block content %}
+
+    <div class="container">
+        <h3>See statistics about request methods amount</h3>
+        <a href="/statistics">Click here</a>
+        <br>
+        <h3>Make a request!</h3>
+        <a href="/request-counter">Click</a>
+        <br>
+        <h3>JSON generator</h3>
+        {{ inputs.getReq("text") }}
+    </div>
+
+{% endblock %}
+

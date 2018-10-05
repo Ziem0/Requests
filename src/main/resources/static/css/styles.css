@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Charmonman');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #00ced1;
+    font-family: 'Charmonman', cursive;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table, th, td {
+    border: 2px solid #000000;
+    border-collapse: collapse;
+}
